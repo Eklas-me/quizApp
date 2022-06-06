@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.mobile_body {
+  width: 700px;
+  height: 100vh;
+  margin-top: 50px;
+  position: relative;
+}
+
+.frame {}
+
+.screen {
+  position: relative;
+  top: -653px;
+  left: 199px;
+  width: 307px;
+  height: 586px;
+  background-image: url("../img/HD-wallpaper-ios-14-android-apple-imac-ipad-iphone-macbook.jpg");
+  border-radius: 28px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.font-camera {
+  width: 20px;
+  height: 20px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  left: 128px;
+  top: 10px;
+}
+
+.font-camera::after {
+  position: absolute;
+  width: 49px;
+  height: 20px;
+  background: rgb(0, 0, 0);
+  content: "";
+  left: 26px;
+  border-radius: 7px;
+}
+
+.bottom.menu {
+  position: absolute;
+  top: 512px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.49);
+  border-radius: 22px;
+  padding: 9px;
+  width: 293px;
+  margin: auto;
+  left: 7px;
+}
+
+.bottom.menu img {
+  width: 45px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.bottom.menu img:hover {
+  width: 44px;
+}
+
+.apps {
+  position: absolute;
+  top: 419px;
+  left: 14px;
+  width: 55px;
+  background: crimson;
+  padding: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  font-family: cursive;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+}
+.quiz-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 307px;
+  height: 586px;
+  border-radius: 28px;
+  z-index: 1;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
+  overflow: hidden;
+}
+.show {
+  opacity: 1;
+  pointer-events: auto;
+}
