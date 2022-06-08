@@ -285,8 +285,9 @@ img {
 }
 
 .myquestion {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .options {
@@ -299,6 +300,7 @@ img {
     background: #06cff240;
     transition: .2s ease;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .question_Right {
@@ -323,4 +325,13 @@ img {
 .options:hover {
     background: #06cff2;
     font-weight: 600;
+}
+
+.correct{
+  background: #115724;
+  font-weight: 600;
+}
+.wrong{
+  background: #721c24;
+  font-weight: 600;
 }
