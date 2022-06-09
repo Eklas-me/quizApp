@@ -358,16 +358,19 @@ img {
 
 .resultBox {
   color: #fff;
+  display: none;
 }
-
+.resultactive{
+  display: block; 
+}
 .completeText {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
-.scoreText span p {display: inline-block;color: rgb(6 207 242);font-weight: 700;font-size: 22px;}
+.scoreText span p {display: inline-block;color: rgb(6 207 242);font-weight: 700;font-size: 24px;}
 
 .scoreText span {
   letter-spacing: 1px;
@@ -377,3 +380,6 @@ img {
 .scoreText {
   text-align: center;
 }
+.resultImage {
+    margin-top: 34px;
+} 
