@@ -76,6 +76,7 @@ img {
   width: 45px;
   margin-right: 6px;
   cursor: pointer;
+  pointer-events: none;
   transition: all 0.5s ease 0s;
 }
 
@@ -327,11 +328,52 @@ img {
     font-weight: 600;
 }
 
-.correct{
+.options.correct{
   background: #115724;
   font-weight: 600;
 }
-.wrong{
+.options.wrong{
   background: #721c24;
   font-weight: 600;
+}
+.options.disabled{
+ pointer-events: none;
+}
+.timelaps {
+  background: orange;
+  height: 2px;
+}
+.nextbtn{
+  display: none;
+}
+
+.resultButton {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.resultBox {
+  color: #fff;
+}
+
+.completeText {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.scoreText span p {display: inline-block;color: rgb(6 207 242);font-weight: 700;font-size: 22px;}
+
+.scoreText span {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.scoreText {
+  text-align: center;
 }
