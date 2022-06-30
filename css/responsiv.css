@@ -1,0 +1,36 @@
+
+
+
+@media screen and (max-width: 576px) {
+  .screen {
+    position: relative;
+    top: -545px;
+    left: 163px;
+    width: 253px;
+    height: 482px;
+    background-image: url("../img/HD-wallpaper-ios-14-android-apple-imac-ipad-iphone-macbook.jpg");
+    border-radius: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .quiz-screen {
+    width: 254px;
+    height: 483px;
+    
+}
+.myquestion {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+.questionSection {
+  margin-top: 5px;
+  padding-bottom: 26px;
+}
+.options {
+  padding: 5px;
+ 
+}
+}
+  

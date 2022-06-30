@@ -86,18 +86,22 @@ img {
 
 .apps {
   position: absolute;
-  top: 419px;
+  top: 420px;
   left: 14px;
-  width: 55px;
+  width: 49px;
   background: crimson;
   padding: 5px;
   border-radius: 6px;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-family: cursive;
-  height: 55px;
+  height: 41px;
   text-align: center;
   cursor: pointer;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
 }
 .quiz-screen {
   position: absolute;
@@ -174,6 +178,7 @@ img {
 .quizText p {
   font-size: 16px;
   line-height: 29px;
+  text-align: justify;
 }
 
 .quizButton {
@@ -383,3 +388,28 @@ img {
 .resultImage {
     margin-top: 34px;
 } 
+
+
+/* Youtube Start */
+.youtube {
+  position: absolute;
+  top: 420px;
+  left: 79px;
+  width: 47px;
+  background: white;
+  padding: 5px;
+  border-radius: 6px;
+  color: #f00;
+  font-size: 15px;
+  font-family: cursive;
+  height: 41px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 10px;
+  line-height: 33px;
+}
+.youtube span a {
+  display: inline-block;
+  color: red;
+}

@@ -51,7 +51,7 @@ nextbtn.onclick = () => {
     clearInterval(counterLine);
     startrTimerLine(widthValue);
     nextbtn.style.display = "none";
-
+    timeCount.textContent = timeValue;  
 
   } else {
     console.log("Quiz Over");
@@ -158,8 +158,21 @@ function showResultBox() {
 
   let restart = document.querySelector(".restart");
   restart.onclick = () => {
-   
-      window.location.reload();
+    resultBox.classList.remove("resultactive");
+    question.classList.add("active");
+    resultBox.classList.add("active");
+    let quesCount = 0;
+    let timeValue = 15;
+    let counter;
+    let widthValue = 0;
+    let userScore = 0;
+    showQuestions(quesCount);
+    clearInterval(counter);
+    startTimer(timeValue);
+    clearInterval(counterLine);
+    startrTimerLine(widthValue);
+    nextbtn.style.display = "none";
+
 
   } 
 
@@ -194,7 +207,10 @@ function startTimer(time) {
 
   }
 
-}
+  
+}; 
+
+
 
 let timeLine = document.querySelector(".timelaps");
 let counterLine;
